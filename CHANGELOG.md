@@ -16,6 +16,13 @@ should change the heading of the (upcoming) version to include a major version b
 
 -->
 
+# 6.4.3
+
+## @rjsf/antd
+
+- Updated `BaseInputTemplate` to remove `type` and set `changeOnWheel` to false for the `InputNumber` component, fixing [#5002](https://github.com/rjsf-team/react-jsonschema-form/issues/5002)
+- Updated `ErrorList` and `IconButton` to destructure icons imported from `@ant-design/icons`, fixing [#4953](https://github.com/rjsf-team/react-jsonschema-form/issues/4953) 
+
 # 6.4.2
 
 ## @rjsf/antd
